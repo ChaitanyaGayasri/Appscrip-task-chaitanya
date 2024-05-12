@@ -1,0 +1,88 @@
+.product-container {
+    padding: 125px;
+}
+
+@media screen and (max-width:768px) {
+    .product-container {
+        padding: 125px;
+    }
+}
+
+.product-header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+@media screen and (max-width:"768px"){
+    .product-header {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+}
+
+ @media screen and (max-width:768px) {
+
+    .number {
+        font-family: "Roboto";
+        font-size: 20px;
+        font-weight: bold;
+    }
+ } 
+
+.header-content {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.hide-filter {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.select-box {
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:"768px"){
+    .header-content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        .header-left {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    
+        .hide-filter {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-left: 25px;
+        }
+    
+        .select-box {
+            border: none;
+            background-color: transparent;
+            color: black;
+            font-weight: bold;
+            cursor: pointer;
+        }
+}
